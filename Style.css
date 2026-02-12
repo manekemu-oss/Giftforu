@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background so photos pop */
+    font-family: 'Georgia', serif;
+    color: white;
+}
+
+.moment {
+    height: 100vh; /* Each photo takes the whole screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.moment img {
+    max-width: 90%;
+    max-height: 70%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border: 2px solid white;
+}
+
+.caption {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.letter-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fdfcf0; /* Creamy paper color */
+    padding: 40px 20px;
+}
+
+.letter {
+    color: #333;
+    max-width: 500px;
+    line-height: 1.8;
+    padding: 30px;
+    border: 1px solid #ddd;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #d63384;
+}
+
+.signature {
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
